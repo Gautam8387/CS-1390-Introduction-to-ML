@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Speech to Image</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+      // ... (Keep the previous JavaScript code here)
+    </script>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="mt-5">Upload an audio file to generate images</h1>
+      <form id="uploadForm" enctype="multipart/form-data" class="mt-4">
+        <div class="custom-file mb-3">
+          <input type="file" class="custom-file-input" id="audio_file" name="audio_file" accept="audio/*">
+          <label class="custom-file-label" for="audio_file">Choose file</label>
+        </div>
+        <button type="button" class="btn btn-primary" onclick="uploadAndProcess()">Upload and Process</button>
+      </form>
+      <div id="result" class="mt-5" style="display:none;">
+        <p id="keywords"></p>
+        <img id="generatedImage" src="" alt="Generated image" class="img-fluid">
+        <div class="mt-3">
+          <a id="downloadLink" href="" download="generated_image.png" class="btn btn-success">Download Image</a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

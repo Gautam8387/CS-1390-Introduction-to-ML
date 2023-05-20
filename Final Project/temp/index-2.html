@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Speech to Image</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+      function uploadAndProcess() {
+        var formData = new FormData($("#uploadForm")[0]);
+        $.ajax({
+          url: "/process",
+          type: "POST",
+          data: formData,
+          processData: false,
+          contentType: false,
+          success: function(response) {
+            $("#keywords").html("Keywords: " + response.keywords.join(", "));
+            $("#generatedImage").attr("src", response.image_url);
+            $("#downloadLink").attr("href", response.image_url);
+          },
+          error: function() {
+            alert("Error processing the request");
+          }
+        });
+      }
+    </script>
+  </head>
+  <body>
+    <h1>Upload an audio file to generate images</h1>
+    <form id="uploadForm" enctype="multipart/form-data">
+      <input type="file" name="audio_file" accept="audio/*">
+      <button type="button" onclick="uploadAndProcess()">Upload and Process</button>
+    </form>
+    <p id="keywords"></p>
+    <img id="generatedImage" src="" alt="Generated image" style="display:none;">
+    <a id="downloadLink" href="" download="generated_image.png" style="display:none;">Download Image</a>
+  </body>
+</html>

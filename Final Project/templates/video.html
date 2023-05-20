@@ -1,0 +1,31 @@
+<!-- <!doctype html>
+<html>
+  <head>
+    <title>Generated Video</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style-video.css') }}">
+  </head>
+  <body>
+    <video width="640" height="480" controls>
+      <source src="D:\Ashoka University\2023 Spring\Introduction to Machine Learning\Project\output\final-video.mp4" type="video/mp4">
+    </video>
+  </body>
+</html> -->
+<!doctype html>
+<html>
+  <head>
+    <title>Generated Video</title>
+    <!-- <link rel="stylesheet" href="{{ url_for('static', filename='style-video.css') }}"> -->
+    <link rel="stylesheet" href="../static/style-video.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Generated Video</h1>
+      <div class="video-container">
+        <video width="640" height="480" controls>
+          <!-- <source src="D:\Ashoka University\2023 Spring\Introduction to Machine Learning\Project\output\final-video.mp4" type="video/mp4"> -->
+          <source src="..\output\final-video.mp4" type="video/mp4">
+        </video>
+      </div>
+    </div>
+  </body>
+</html>

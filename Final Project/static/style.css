@@ -1,0 +1,87 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body styles */
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+    padding: 2rem;
+  }
+  
+  /* Heading styles */
+  h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  
+  /* Form styles */
+  form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    padding: 1.5rem;
+  }
+  
+  label {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    display: block;
+  }
+  
+  input[type="text"],
+  input[type="file"] {
+    font-size: 1.2rem;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: none;
+    background-color: #f7f7f7;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  input[type="text"]:focus,
+  input[type="file"]:focus {
+    outline: none;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    transition: background-color 0.2s ease;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #0062cc;
+  }
+  
+  /* Messages styles */
+  ul.messages {
+    margin-top: 1rem;
+    list-style: none;
+  }
+  
+  ul.messages li {
+    background-color: #e7f3fe;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    border: 1px solid #007bff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  }
+  

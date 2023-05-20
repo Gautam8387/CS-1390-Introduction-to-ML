@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Speech to Image</title>
+  </head>
+  <body>
+    <h1>Upload an audio file to generate images</h1>
+    <form action="/process" method="post" enctype="multipart/form-data">
+      <input type="file" name="audio_file" accept="audio/*">
+      <button type="submit">Upload and Process</button>
+    </form>
+  </body>
+</html>
