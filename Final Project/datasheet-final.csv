@@ -1,0 +1,26 @@
+Student ,summer/semester,university,major,minor,gpa,course,batch,fin_aid,recommend,research,course_rate,uni_rate,overall_rate,chance_admit
+S001,Summer Abroad,London School of Economics ,Economics and Finance,Mathematics ,3.47,Macroeconomics 1 and Microeconomics 1,UG24,No,Yes,Yes,4,4,4,0.12
+S002,Semester Abroad,Yale University ,Economics ,IR,3.5,Third World Studies ,UG23,No,Yes,Yes,4.5,4.5,4.5,0.06
+S003,Semester Abroad,King's College London ,Psychology ,-,3.37,"Biosciences, Global Health & Social Medicine, Law",UG23,Yes,Yes,No,3,4,3.5,0.18
+S004,Semester Abroad,University of Pennsylvania ,Computer Science,Psychology ,3.72,Computer Programming,UG22,Yes,Yes,Yes,4,4.5,4.25,0.08
+S005,Summer Abroad,London School of Economics ,Economics ,Computer Science,3.92,"Introductory Microeconomics, Advanced Corporate Finance, Management & Economics of Innovation",UG24,No,Maybe,No,3,3.5,3.25,0.12
+S006,Summer Abroad,Lehigh University ,Computer Science,Mathematics,3.86,Hatchery Program,UG24,Yes,Maybe,Yes,3.5,4.5,4,0.32
+S007,Summer Abroad,London School of Economics ,Economics and Finance ,Entrepreneurship,3.05,Business Strategy in International and Emerging Markets ,UG24,Yes,Yes,No,5,5,5,0.12
+S008,Summer Abroad,HEC Paris ,Economics and Finance ,-,3.48,Business and Climate change ,UG24,Yes,Maybe,No,4,5,4.5,0.18
+S009,Summer Abroad,King's College London ,History,IR,3.67,War and diplomacy ,UG23,Yes,Yes,No,5,4.5,4.75,0.18
+S010,Summer Abroad,Kaist University,Computer Science,Economics ,3.51,Advanced Computer Architecture,UG24,No,No,Yes,3,5,4,0.2
+S011,Semester Abroad,Harvard,Philosophy,-,3.8,Business Analysis,UG23,No,Yes,No,2,3.5,2.75,0.04
+S012,Summer Abroad,University of Zurich,Computer Science,-,3.13,Deep Dive into Blockchain,UG23,Yes,Maybe,No,4,4,4,0.27
+S013,Summer Abroad,University College London,Philosophy,Economics ,3.3,Wars and Violence (Level 2),UG24,No,Maybe,Yes,3.5,4.5,4,0.07
+S014,Summer Abroad,HEC Paris ,Psychology ,Entrepreneurship,3.11,Entreprenurship and Digital  Innovation HEC-TUM,UG24,No,No,Yes,5,5,5,0.18
+S015,Summer Abroad,Stanford,Computer Science,Psychology ,3.59,Machine Learning,UG23,Yes ,Yes,No,5,5,5,0.04
+S016,Semester Abroad,Yale University ,Economics and Finance,Entrepreneurship,3.61,Financial Markets,UG24,Yes ,Yes,Yes,5,4.5,4.75,0.06
+S017,Summer Abroad,UCLA,Mathematics,Computer Science,3.91,Analytic Geometry and Calculus,UG24,Yes ,Yes,Yes,4.5,5,4.75,0.14
+S018,Summer Abroad,"University of California, Berkeley",Computer Science,-,3.74,Foundations of Data Science,UG22,No ,Maybe,Yes,4,4.5,4.25,0.13
+S019,Semester Abroad,University of Oxford,History,IR,3.29,"Diplomacy, War(ts) and All",UG24,No,No,No,2,4.5,3.25,0.13
+S020,Summer Abroad,Princeton University,Political Science,-,3.43,An Introduction to Contemporary Indian Politics,UG23,Yes ,Yes,No,4,5,4.5,0.05
+S021,Semester Abroad,University of Cambridge,Sociology,Entrepreneurship,3.76,Social Policy in The 21st Century,UG24,No ,Yes,No,4,4,4,0.15
+S022,Semester Abroad,University of San Diego,Psychology ,Computer Science,3.64,Theories of Personality,UG23,No ,Maybe,Yes,3.5,4.5,4,0.48
+S023,Summer Abroad,King's College London ,Political Science,-,3.28,Behavioural Insights and Government Policy,UG24,No ,Yes,No,4,5,4.5,0.18
+S024,Summer Abroad,London School of Economics ,Economics and Finance,Entrepreneurship,3.06,Intermediate Microeconomics,UG22,No ,Yes,No,5,5,5,0.12
+S025,Summer Abroad,University of Brighton,Psychology ,Computer Science,3.86,Psychology and Social Issues,UG23,No ,Maybe,Yes,4,4.5,4.25,0.15
