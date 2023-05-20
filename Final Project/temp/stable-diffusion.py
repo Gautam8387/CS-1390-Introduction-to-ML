@@ -1,7 +1,7 @@
 import requests
 
 API_URL = "https://api-inference.huggingface.co/models/runwayml/stable-diffusion-v1-5"
-headers = {"Authorization": "Bearer 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"}
+headers = {}
 
 def query(payload):
 	response = requests.post(API_URL, headers=headers, json=payload)

@@ -1,1 +1,7 @@
 ML+Project+Report+Problem+1.pdf
+*.wav
+*.mp3
+.\Final Project\data\*.wav
+.\Final Project\data\*.mp3
+.\Final Project\data\eg-1\*.wav
+.\Final Project\data\eg-2\*.wav
